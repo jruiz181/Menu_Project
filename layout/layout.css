@@ -28,10 +28,12 @@ h2,a{
     margin-top: 0;
     text-decoration: none;
 
+
 }
 h3{
     color: white;
     text-shadow: black 3px 3px 3px;
+    
 }
 body{
     margin: 0%;
@@ -54,9 +56,9 @@ div.col-1-5{
     border: 4px black solid;
     width: 200px;
     list-style: none;
-    height: 100%;
+    height: 83%;
     position: fixed;
-    top: 127px;
+    top: 128px;
     
 }
 div.row-1-3{
@@ -65,13 +67,13 @@ border: gold solid 5px;
 .col-1-5{width: 20%}
 .col-4-5{
     width: 85.3%;
-    background-image: url("Background.jpeg");
+    background-image: url("../images/Background.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-left: 208px;
     margin-right: 0px;
     background-color: rgb(169, 0, 0);
-    height: 155%;
+    height: 180%;
 }
 h4, li, p{
     text-align: center;
@@ -79,7 +81,8 @@ h4, li, p{
     list-style: none;
 }
 h4{
-    color: rgb(255, 183, 0);;
+    color: rgb(255, 183, 0);
+    font-size: 1.2em;
 }
 p, li{
     color: white;
@@ -88,4 +91,6 @@ div [class^='col']{
     display: block;
     float: left;
 }
-nav li{}
+img{
+    width: 15px;
+}
